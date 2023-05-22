@@ -351,6 +351,11 @@ nav{
 .herosRight img{
     max-height: 400px;
 }
+
+.HerosSection2{
+    background-color: #9dbade3b;
+    padding-bottom: 25px;
+}
 /* heros end */
 
 /* Mid NevBer start */
