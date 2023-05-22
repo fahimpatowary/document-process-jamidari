@@ -481,6 +481,7 @@ input:focus,input:hover{
     padding: 9px 15px;
     text-align: center;
     display: none;
+    z-index: 10;
 }
 
 .WtitchDiv div{
