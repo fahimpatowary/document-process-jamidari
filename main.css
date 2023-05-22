@@ -363,6 +363,7 @@ nav{
     background-color: #dae7f7;
     color: black;
     padding: 12px 0;
+    border-bottom: 2px solid var(--logoColor-2);
 }
 
 .MidNev img{
