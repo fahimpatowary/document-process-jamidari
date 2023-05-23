@@ -27,15 +27,18 @@ ImgiD.addEventListener("click", () => {
 window.addEventListener("scroll", () => {
   let TopNev = document.querySelector(".TopNev");
   let MidNev = document.querySelector(".MidNev");
+  let MoboTop = document.querySelector(".MoboTop");
 
   if (window.scrollY > 10) {
     TopNev.style.display = "none";
     MidNev.style.display = "block";
     MidNev.classList.add("MidNevScrol")
+    MoboTop.classList.add("pixedMobilnem")
   } else {
     TopNev.style.display = "block";
     MidNev.style.display = "block";
     MidNev.classList.remove("MidNevScrol")
+    MoboTop.classList.remove("pixedMobilnem")
   }
 });
 

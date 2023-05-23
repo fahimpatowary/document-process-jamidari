@@ -1,0 +1,14 @@
+.Top Rank serviceer
+.Low & Fermhouse
+.Tiles
+.sements
+.Builders
+.Broker
+
+.Home page
+	add blog in home page (done)
+.Agency Page
+.Project Page
+.contact us
+.Blog
+.about us
