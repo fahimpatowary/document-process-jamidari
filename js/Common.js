@@ -29,7 +29,7 @@ window.addEventListener("scroll", () => {
   let MidNev = document.querySelector(".MidNev");
   let MoboTop = document.querySelector(".MoboTop");
 
-  if (window.scrollY > 10) {
+  if (window.scrollY > 100) {
     TopNev.style.display = "none";
     MidNev.style.display = "block";
     MidNev.classList.add("MidNevScrol")

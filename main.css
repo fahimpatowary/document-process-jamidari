@@ -1393,6 +1393,54 @@ footer ul li a {
 }
 /* Blog Section End */
 
+/* Blog page start */
+.BlogPage .imgBox{
+  height: 170px !important;
+}
+
+.BlogPage .bolgText{
+  padding-top: 0 !important;
+}
+
+.BlogPage .latestVlog h4{
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  display: inline-block;
+  border-bottom: 4px solid var(--logoColor-1);
+}
+
+.BlogPage .latestVlog a:hover{
+  color: var(--logoColor-2);
+}
+
+.BlogPage .latestVlog .imgBox{
+  height: 70px !important;
+  width: 100px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.BlogPage .latestVlog .imgBox img{
+  height: 100%;
+  width: 100%;
+}
+/* Blog page end */
+
+/* Bloge Single Page Start */
+.BlogeSinglePage .MianImage{
+  max-height: 350px;
+  border-radius: 7px;
+}
+
+.BlogeSinglePage p{
+  text-align: justify;
+}
+
+.BlogeSinglePage .formBox{
+  max-width: 600px;
+}
+/* Bloge Single Page End */
+
 /* Service Holer Profile  Start */
 .serviceHolerProfile .imgBox {
   height: 100px;

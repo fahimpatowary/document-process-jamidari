@@ -8,7 +8,8 @@
 .Home page
 	add blog in home page (done)
 .Service Holder Page (done)
-.Project Page 
+.Project Page (done)
+.Blog (done)
 .contact us 
-.Blog 
+.Blog single 
 .about us 
