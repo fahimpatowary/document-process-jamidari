@@ -7,8 +7,8 @@
 
 .Home page
 	add blog in home page (done)
-.Agency Page
-.Project Page
-.contact us
-.Blog
-.about us
+.Service Holder Page (done)
+.Project Page 
+.contact us 
+.Blog 
+.about us 

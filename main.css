@@ -1556,6 +1556,24 @@ footer ul li a {
 }
 /* Service Holer Profile  End */
 
+/* Project Details start */
+.ProjectDetails .Details p{
+  text-align: justify;
+}
+
+.ProjectDetails .Details img{
+  max-height: 200px;
+  width: auto;
+  border-radius: 15px;
+  padding: 0 10px;
+}
+
+.ProjectDetails .formBox{
+  position: sticky;
+  top: 100px;
+}
+/* Project Details end */
+
 :root {
   --logoColor-1: #2c66af;
   --logoColor-2: #ff863f;
