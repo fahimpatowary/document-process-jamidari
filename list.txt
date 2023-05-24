@@ -12,4 +12,4 @@
 .Blog (done) 
 .Blog single (done)
 .contact us (done)
-.about us 
+.about us (done)

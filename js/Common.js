@@ -84,8 +84,6 @@ function ProceedToCheckout2Funs() {
   document.getElementById("orderCompletedTab").style.display = "block";
 }
 
-// ****** thinks no need ******
-
 // Address addd show  AddAdressBtnO
 function FunAddAdressBtnO() {
   let addressInfoFrom = document.querySelector(".addressInfoFrom");
@@ -101,4 +99,25 @@ function FunaddressInfoFrom() {
   collectedAddressA.style.display = "block";
   addressInfoFrom.style.display = "none";
   console.log("helow!!!!!!!!!");
+}
+
+// Change Passoward and Mail
+function ChangeEmail(){
+  let emailID = document.querySelector("#EmaoChange")
+  let passowardlID = document.querySelector("#PassowardChange")
+  let ifoID = document.querySelector(".profileUpdate")
+
+  emailID.style.display = "block";
+  passowardlID.style.display = "none";
+  ifoID.style.display = "none";
+}
+
+function ChangePassoward(){
+  let emailID = document.querySelector("#EmaoChange")
+  let passowardlID = document.querySelector("#PassowardChange")
+  let ifoID = document.querySelector(".profileUpdate")
+
+  emailID.style.display = "none";
+  passowardlID.style.display = "block";
+  ifoID.style.display = "none";
 }
