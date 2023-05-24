@@ -9,7 +9,7 @@
 	add blog in home page (done)
 .Service Holder Page (done)
 .Project Page (done)
-.Blog (done)
-.contact us 
-.Blog single 
+.Blog (done) 
+.Blog single (done)
+.contact us (done)
 .about us 
