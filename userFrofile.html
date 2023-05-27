@@ -272,6 +272,24 @@
                         >
                             Edit  Account
                         </button>
+                        
+                        <!-- Chang Password INFORMATION -->
+                        <button 
+                                class="nav-link text-white mb-2" id="nav-Change-password" data-bs-toggle="tab" 
+                                data-bs-target="#Change-password" 
+                                type="button" role="tab" aria-controls="Change-password" aria-selected="false"
+                        >
+                            Chang Password
+                        </button>
+                        
+                        <!-- Chang Email INFORMATION -->
+                        <button 
+                                class="nav-link text-white mb-2" id="nav-Change-Email" data-bs-toggle="tab" 
+                                data-bs-target="#Change-Email" 
+                                type="button" role="tab" aria-controls="Change-Email" aria-selected="false"
+                        >
+                            Chang Email
+                        </button>
                     </div>
                 </div>
                 
@@ -490,7 +508,6 @@
                         <!-- collected Address end -->
                     </div>
 
-
                     <!-- EDIT ACCOUNT INFORMATION -->
                     <div class="tab-pane fade" id="Account-Information" role="tabpanel" aria-labelledby="nav-Account-Information" 
                             tabindex="0">
@@ -516,26 +533,24 @@
                                     </div>
                                 </div>
 
-                                <!-- change Email -->
-                                <div class="EmailChnage ChangePassoward" id="EmaoChange">
-                                    <div>
-                                        <label for="email">Old Email: </label>
-                                        <input type="text" placeholder="Enter Your Old Email">
-                                    </div>
-
-                                    <div>
-                                        <label for="email">New Email: </label>
-                                        <input type="text" placeholder="Enter Your New Email">
-                                    </div>   
-                                
-                                    <div>
-                                        <label for="varification">Verification code: </label>
-                                        <input type="text" placeholder="">
-                                    </div> 
+                                <div class="AddresSubmit">
+                                    <p id="Adressadded">Save</p>
                                 </div>
-                                
+                            </form>
+                        </div>
+                        <!-- Addres Informain From  end -->
+                    </div>
+
+                    <!-- Chang Password INFORMATION -->
+                    <div class="tab-pane fade" id="Change-password" role="tabpanel" aria-labelledby="nav-Change-password" 
+                            tabindex="0">
+                        <h5>Chang Password</h5>
+                            
+                        <!-- Addres Informain From  start -->
+                        <div class="PasswordEdit">
+                            <form>
                                 <!-- change Email -->
-                                <div class="EmailChnage" id="PassowardChange">
+                                <div class="EmailChnage d-block">
                                     <div>
                                         <label for="email">Old Password: </label>
                                         <input type="text" placeholder="Enter Your Old Password">
@@ -552,16 +567,38 @@
                                     </div> 
                                 </div>
 
-                                <!-- 11st check -->
-                                <div class="CheckBoxDiv" onclick="ChangeEmail()">
-                                    <!-- <input class="CheckBox" type="checkbox" placeholder=""> -->
-                                    <button type="button"> Change Email</button>
+                                <div class="AddresSubmit">
+                                    <p id="Adressadded">Save</p>
                                 </div>
+                            </form>
+                        </div>
+                        <!-- Addres Informain From  end -->
+                    </div>
 
-                                <!-- 2nd check -->
-                                <div class="CheckBoxDiv" onclick="ChangePassoward()">
-                                    <!-- <input class="CheckBox" type="checkbox" placeholder=""> -->
-                                    <button type="button"> Change Password</button>
+                    <!-- Chang Email INFORMATION -->
+                    <div class="tab-pane fade" id="Change-Email" role="tabpanel" aria-labelledby="nav-Change-Email" 
+                            tabindex="0">
+                        <h5>Chang Email</h5>
+                            
+                        <!-- Addres Informain From  start -->
+                        <div class="PasswordEdit">
+                            <form>
+                                <!-- change Email -->
+                                <div class="EmailChnage d-block">
+                                    <div>
+                                        <label for="email">Old Email: </label>
+                                        <input type="text" placeholder="Enter Your Old Email">
+                                    </div>
+
+                                    <div>
+                                        <label for="email">New Email: </label>
+                                        <input type="text" placeholder="Enter Your New Email">
+                                    </div>   
+                                
+                                    <div>
+                                        <label for="varification">Verification code: </label>
+                                        <input type="text" placeholder="">
+                                    </div> 
                                 </div>
 
                                 <div class="AddresSubmit">

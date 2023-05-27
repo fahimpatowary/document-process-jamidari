@@ -17,9 +17,13 @@
 .Terms And Comdition (done)
 .all services (done)
 
-//review
-.mobile nevber (done)
-.heros with search option (done)
-.hidde seach from nav (done)
-.link user profile from navber (done)
-.remove blog from about us (done)
+//review1 (done) 
+.mobile nevber
+.heros with search option
+.hidde seach from nav
+.link user profile from navber
+.remove blog from about us
+
+//check responsive
+
+
