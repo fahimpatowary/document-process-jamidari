@@ -393,6 +393,9 @@
     font-size: 18px;
 }
 
+.table-responsive table tr td p{
+    text-align: justify;
+}
 
 @media screen and (min-width: 768px) {
     .UserMenu button{
@@ -476,7 +479,6 @@
     }
 
     .addressInfoFrom input, .PasswordEdit input{
-        height: 29px;
         width: calc(98% - 137px);
     }
 

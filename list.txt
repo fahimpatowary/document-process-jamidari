@@ -13,3 +13,13 @@
 .Blog single (done)
 .contact us (done)
 .about us (done)
+.user profile (done)
+.Terms And Comdition (done)
+.all services (done)
+
+//review
+.mobile nevber (done)
+.heros with search option (done)
+.hidde seach from nav (done)
+.link user profile from navber (done)
+.remove blog from about us (done)
