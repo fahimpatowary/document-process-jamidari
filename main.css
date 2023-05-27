@@ -388,6 +388,14 @@ nav {
   border: none;
   box-shadow: 0 0px 3px 0px #ff863f;
 }
+
+@media screen and (max-width:767px) {
+  .herosLeft .btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 10px;
+  }
+}
 /* heros end */
 
 /* Mid NevBer start */
@@ -729,7 +737,7 @@ input:hover {
 .CartTabe i,
 .CatagorisTabe i {
   font-size: 32px !important;
-  margin-top: 20px;
+  margin-top: 17px;
   color: var(--logoColor-1);
 }
 
@@ -1187,6 +1195,12 @@ footer ul li a {
   color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 1023px) {
+  footer{
+    padding-bottom: 0px !important;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .FristFooter ul li {
     text-align: center;
@@ -1213,6 +1227,11 @@ footer ul li a {
 
   .BannerDiv:not(:last-child) {
     margin-bottom: 0.7rem;
+  }
+
+  footer{
+    margin-top: 0;
+    padding-bottom: 50px;
   }
 }
 /* footer end */
@@ -1360,6 +1379,13 @@ footer ul li a {
 .allServiceHolder .content button:hover {
   background-color: var(--logoColor-2);
 }
+
+@media screen and (max-width: 1023px) {
+  .allServiceHolder .content img {
+    height: 55px;
+    width: 55px;
+  }
+}
 /* all ServiceHolder end */
 
 /* Blog Card Start */
@@ -1466,6 +1492,11 @@ footer ul li a {
 /* Blog page end */
 
 /* Bloge Single Page Start */
+.BlogeSinglePage h1,
+.BlogeSinglePage h2{
+  margin-bottom: 15px;
+}
+
 .BlogeSinglePage .MianImage{
   max-height: 350px;
   border-radius: 7px;
@@ -1728,6 +1759,18 @@ footer ul li a {
   max-width: 100%;
 }
 /* Contact Us End */
+
+/* contact us page start */
+.ContactPage h1{
+  font-size: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .ContactPage h1{
+    font-size: 22px;
+  } 
+}
+/* contact us page end */
 
 :root {
   --logoColor-1: #2c66af;

@@ -39,6 +39,9 @@
     font-size: 14px;
     background-color: rgb(249 249 249);
     box-shadow: 0 0 5px #cbcbcb;
+
+    position: sticky;
+    top: 100px;
 }
 
 .MenuDaitels.tab-content .active{

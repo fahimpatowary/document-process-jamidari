@@ -25,5 +25,7 @@
 .remove blog from about us
 
 //check responsive
+  .remove bottom footer form every page
+  
 
 
