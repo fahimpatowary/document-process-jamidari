@@ -406,15 +406,16 @@ nav {
   border-bottom: 2px solid var(--logoColor-2);
 }
 
-.MidNev img {
-  height: auto;
-  width: 100%;
+.MidNev img{
+    width: 130px;
+   width: auto;
+   max-width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
   .MidNev img {
-    height: 57px;
-    max-height: 57px !important;
+    width: 130px;
+    max-height: auto;
   }
 }
 
@@ -1431,13 +1432,13 @@ footer ul li a {
 
 .BlogSection .bolgCard .bolgText .Btn {
   display: inline-block;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 10px 20px;
-  border-radius: 7px;
-  color: white;
-  background-color: var(--logoColor-1);
-  transition: all 0.5s;
+  font-size: 17px;
+    font-weight: 600;
+    padding: 5px 9px;
+    border-radius: 7px;
+    color: white;
+    background-color: var(--logoColor-1);
+    transition: all 0.5s;
 }
 
 .BlogSection .bolgCard .bolgText .Btn:hover {
@@ -1446,7 +1447,7 @@ footer ul li a {
 
 @media screen and (max-width: 1023px) {
   .BlogSection .bolgCard .imgBox {
-    height: 190px;
+     height: 179px;
   }
 }
 /* Blog Section End */

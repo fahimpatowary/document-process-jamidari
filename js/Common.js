@@ -12,6 +12,7 @@ function ShowMiniNev() {
 // Switch Account
 let ImgiD = document.getElementById("switchAccount");
 let x = true;
+
 ImgiD.addEventListener("click", () => {
   let SwitchDiv = document.querySelector(".WtitchDiv");
   if (x) {
@@ -68,6 +69,7 @@ CatagorisIcinHide111.addEventListener("click", function () {
 let CatagorisIcinHideCros2222 = document.querySelector(
   ".CatagorisIcinHideCros"
 );
+
 CatagorisIcinHideCros2222.addEventListener("click", function () {
   document.getElementById("NavClickAction").style.display = "none";
   document.getElementById("CatagorisIcinHide").style.display = "block";
@@ -102,22 +104,22 @@ function FunaddressInfoFrom() {
 }
 
 // Change Passoward and Mail
-function ChangeEmail(){
-  let emailID = document.querySelector("#EmaoChange")
-  let passowardlID = document.querySelector("#PassowardChange")
-  let ifoID = document.querySelector(".profileUpdate")
+// function ChangeEmail(){
+//   let emailID = document.querySelector("#EmaoChange")
+//   let passowardlID = document.querySelector("#PassowardChange")
+//   let ifoID = document.querySelector(".profileUpdate")
 
-  emailID.style.display = "block";
-  passowardlID.style.display = "none";
-  ifoID.style.display = "none";
-}
+//   emailID.style.display = "block";
+//   passowardlID.style.display = "none";
+//   ifoID.style.display = "none";
+// }
 
-function ChangePassoward(){
-  let emailID = document.querySelector("#EmaoChange")
-  let passowardlID = document.querySelector("#PassowardChange")
-  let ifoID = document.querySelector(".profileUpdate")
+// function ChangePassoward(){
+//   let emailID = document.querySelector("#EmaoChange")
+//   let passowardlID = document.querySelector("#PassowardChange")
+//   let ifoID = document.querySelector(".profileUpdate")
 
-  emailID.style.display = "none";
-  passowardlID.style.display = "block";
-  ifoID.style.display = "none";
-}
+//   emailID.style.display = "none";
+//   passowardlID.style.display = "block";
+//   ifoID.style.display = "none";
+// }
